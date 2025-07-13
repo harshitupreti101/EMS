@@ -1,0 +1,20 @@
+@import "tailwindcss";
+* {
+  box-sizing:border-box;
+  font-family: 'Gilroy', sans-serif;
+}
+
+html,body {
+  height: 100%;
+  width: 100%;
+  margin:0px;
+  color:white;
+  background: black;
+}
+#TaskList::-webkit-scrollbar,#alltask::-webkit-scrollbar{
+  display:none;
+}
+input[type="date"]::-webkit-calendar-picker-indicator { 
+  cursor: pointer;
+}
+
