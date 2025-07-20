@@ -17,4 +17,7 @@ html,body {
 input[type="date"]::-webkit-calendar-picker-indicator { 
   cursor: pointer;
 }
+#task-list-numbers::-webkit-scrollbar {
+  display: none;
+}
 

@@ -25,11 +25,11 @@ const Login = () => {
 
   return (
     <div className='flex h-screen w-screen items-center justify-center' >
-        <div className='rounded-xl p-20 border-2 border-emerald-600'>
+        <div className='rounded-xl p-10 lg:p-20 border-2 border-emerald-600'>
             <form onSubmit={submitHandler} className='flex flex-col items-center justify-center'>
-                <input onChange={emailHandler} className='border-2 border-emerald-600 rounded-full py-3 px-5 text-xl text-white outline-none placeholder:text-gray-400' value ={email} type="email"  placeholder='Enter your email'/>
-                <input onChange={passwordHandler} className='mt-5 border-2 border-emerald-600 rounded-full py-3 px-5 text-xl text-white outline-none placeholder:text-gray-400' value={password} type="password" placeholder='Enter password' />
-                <button className='w-full mt-5 border-2 bg-emerald-600 rounded-full py-3 px-5 text-xl text-white outline-none cursor-pointer border-none' type="submit">Log in</button>
+                <input onChange={emailHandler} className='py-2 lg:py-3 px-2 lg:px-5 border-2 border-emerald-600 rounded-full  text-xl text-white outline-none placeholder:text-gray-400 placeholder:pl-2' value ={email} type="email"  placeholder='Enter your email'/>
+                <input onChange={passwordHandler} className='py-2 lg:py-3 px-2 lg:px-5 mt-5 border-2 border-emerald-600 rounded-full  text-xl text-white outline-none placeholder:text-gray-400 placeholder:pl-2' value={password} type="password" placeholder='Enter password' />
+                <button className='py-2 lg:py-3 px-2 lg:px-5 w-full mt-5 border-2 bg-emerald-600 rounded-full  text-xl text-white outline-none cursor-pointer border-none' type="submit">Log in</button>
             </form>
         </div>
     </div>

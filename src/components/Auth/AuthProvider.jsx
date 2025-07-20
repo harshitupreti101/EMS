@@ -47,7 +47,7 @@ const AuthProvider = (props) => {
   const [userData, setUserData] = useState(null);
 
   useEffect(() => {
-    setUserData({ employees, admin, loggedInUser, loginHandler, user, setLoggedInUser, setUser, logoutHandler });
+    setUserData({ employees, admin, loggedInUser, loginHandler, user, setLoggedInUser, setUser, logoutHandler ,setEmployees});
   }, [loggedInUser, user])
 
 
